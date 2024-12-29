@@ -1,1 +1,38 @@
-# Python-1-Liner-Builder
+Python One-Liner Builder
+Python One-Liner Builder is a tool designed to transform any Python script into a one-liner executable command. This tool encrypts the script, embeds the decryption key, and generates a compact one-liner that installs required dependencies, decrypts, and executes the script.
+
+Features
+Script Encryption: Encrypts Python scripts using the cryptography library.
+One-Liner Generation: Produces a single Python command that installs dependencies and executes the encrypted script.
+File Picker Integration: Built-in file picker to easily select scripts for processing.
+Save to File: Saves the generated one-liner to a new Python file.
+Requirements
+Python 3.x
+cryptography library
+tkinter for the file picker
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/python-one-liner-builder.git
+cd python-one-liner-builder
+Install dependencies:
+
+bash
+Copy code
+pip install cryptography
+Usage
+Run the script:
+
+bash
+Copy code
+python python1liner.py
+A file picker will appear. Select the Python script you want to convert into a one-liner.
+
+The tool will:
+
+Encrypt the script.
+Generate a one-liner command.
+Save the one-liner to a file named one_liner.py in the same directory as the builder.
+Execute the generated one_liner.py as a standalone script.
