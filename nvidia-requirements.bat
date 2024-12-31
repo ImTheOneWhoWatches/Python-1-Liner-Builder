@@ -1,7 +1,7 @@
 @echo off
 echo Installing required packages...
 
-pip install -r nvidia_requirements.txt > NUL
+pip install -r requirements.txt > NUL
 
 echo Done!
 pause
