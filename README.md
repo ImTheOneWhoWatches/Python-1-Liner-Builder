@@ -1,22 +1,86 @@
-Python One-Liner Builder
-============================
-Python One-Line Builder is a tool designed to transform any Python script into a one-liner executable command. This tool encrypts the script, embeds the decryption key, and generates a compact one-liner that installs required dependencies, decrypts, and executes the script.
+# 🛡️ Python One-Liner Builder
 
-Features
- * Script Encryption: Encrypts Python scripts using the cryptography library.
- * One-Liner Generation: Produces a single Python command that installs dependencies and executes the encrypted script.
- * File Picker Integration: Built-in file picker to easily select scripts for processing.
- * Save to File: Saves the generated one-liner to a new Python file.
-Requirements
- * Python 3.x
- * cryptography library
- * tkinter for the file picker
-Installation
- * Download the zip
+## 📚 **Overview**
+The **Python One-Liner Builder** is a secure script encryption and execution tool that converts any Python script into an encrypted one-liner. This one-liner can securely decrypt and execute the original script while maintaining confidentiality.
 
-The tool will:
+---
 
-Encrypt the script.
-Generate a one-liner command.
-Save the one-liner to a file named one_liner.py in the same directory as the builder.
-Execute the generated one_liner.py as a standalone script.
+## 🚀 **Features**
+- **🔑 Script Encryption:** Encrypt Python scripts securely using `cryptography.fernet`.
+- **📝 One-Liner Generation:** Generate a single Python command that decrypts and runs the script.
+- **📂 File Picker GUI:** Easy-to-use file picker to select scripts.
+- **🛡️ Secure Execution:** Decrypted scripts run in a temporary file.
+- **🗑️ Cleanup:** Temporary files are automatically removed after execution.
+- **✅ Syntax Validation:** Validates Python syntax before encryption.
+
+---
+
+## 💻 **Prerequisites**
+Make sure you have the following dependencies installed:
+- Python 3.11+
+- `cryptography`
+- `tkinter`
+
+Install dependencies using pip:
+```bash
+pip install cryptography
+```
+
+---
+
+## 🛠️ **How to Use**
+
+### 1️⃣ **Run the Builder Script**
+Run the main script to start the encryption process:
+```bash
+python one_liner_builder.py
+```
+
+### 2️⃣ **Select a Python Script**
+- A file picker will appear.
+- Select the Python script (`.py`) you want to encrypt.
+
+### 3️⃣ **Generate One-Liner**
+- The script generates an encrypted one-liner and saves it as `one_liner.py` in the current directory.
+
+### 4️⃣ **Run the One-Liner**
+Set the encryption key in your environment variable and execute:
+```bash
+export SCRIPT_KEY='your-key-here'
+python one_liner.py
+```
+
+---
+
+## 🛡️ **Security Best Practices**
+- Keep the encryption key (`SCRIPT_KEY`) secret.
+- Avoid hardcoding sensitive information.
+- Validate scripts before encrypting.
+- Always set environment variables securely.
+
+---
+
+## 🐞 **Troubleshooting**
+| Issue | Solution |
+|-------|----------|
+| `ModuleNotFoundError: No module named 'cryptography'` | Install dependencies: `pip install cryptography` |
+| `SCRIPT_KEY not set` | Export the key using: `export SCRIPT_KEY='your-key'` |
+| Temporary file not deleted | Ensure cleanup logic is executed (handled in the script). |
+
+---
+
+## 🤝 **Contributing**
+Contributions are welcome! Feel free to fork the repository, submit issues, or open pull requests.
+
+---
+
+## 📜 **License**
+This project is licensed under the MIT License.
+
+---
+
+
+---
+
+✅ **Enjoy Secure Python Script Encryption!** 🐍✨
+
