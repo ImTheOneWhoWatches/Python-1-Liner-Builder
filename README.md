@@ -17,7 +17,7 @@ The **Python One-Liner Builder** is a secure script encryption and execution too
 
 ## 💻 **Prerequisites**
 Make sure you have the following dependencies installed:
-- Python 3.8+
+- Python 3.11+
 - `cryptography`
 - `tkinter`
 
