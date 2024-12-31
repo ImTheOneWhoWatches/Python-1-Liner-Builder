@@ -23,7 +23,7 @@ Make sure you have the following dependencies installed:
 
 Install dependencies using pip:
 ```bash
-pip install cryptography
+pip install cryptography tk
 ```
 
 ---
