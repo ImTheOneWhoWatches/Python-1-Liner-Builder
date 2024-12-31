@@ -33,7 +33,7 @@ pip install cryptography tk
 ### 1️⃣ **Run the Builder Script**
 Run the main script to start the encryption process:
 ```bash
-python one_liner_builder.py
+python main.py
 ```
 
 ### 2️⃣ **Select a Python Script**
@@ -41,13 +41,13 @@ python one_liner_builder.py
 - Select the Python script (`.py`) you want to encrypt.
 
 ### 3️⃣ **Generate One-Liner**
-- The script generates an encrypted one-liner and saves it as `one_liner.py` in the current directory.
+- The script generates an encrypted one-liner and saves it as `python main.py` in the current directory.
 
 ### 4️⃣ **Run the One-Liner**
 Set the encryption key in your environment variable and execute:
 ```bash
 export SCRIPT_KEY='your-key-here'
-python one_liner.py
+python main.py
 ```
 
 ---
@@ -79,8 +79,4 @@ This project is licensed under the MIT License.
 
 ---
 
-
----
-
 ✅ **Enjoy Secure Python Script Encryption!** 🐍✨
-
