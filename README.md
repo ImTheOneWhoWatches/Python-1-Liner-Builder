@@ -25,3 +25,4 @@ Execute the generated one_liner.py as a standalone script.
 DISCLAIMER
 ==========
 THIS IS A PROJECT, THIS IS NOT INTENDED FOR ANY MALITIOUS USE.
+I AM NOT RESPONSIBLE FOR YOUR WRONGDOING
