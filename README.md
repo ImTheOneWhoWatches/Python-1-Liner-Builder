@@ -20,3 +20,8 @@ Encrypt the script.
 Generate a one-liner command.
 Save the one-liner to a file named one_liner.py in the same directory as the builder.
 Execute the generated one_liner.py as a standalone script.
+
+
+DISCLAIMER
+==========
+THIS IS A PROJECT, THIS IS NOT INTENDED FOR ANY MALITIOUS USE.
